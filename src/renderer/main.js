@@ -8,7 +8,7 @@ import 'jquery'
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 // FontAwesome
-import './assets/fontawesome-free-5.13.0-web/fontawesome-free-5.13.0-web/css/all.min.css'
+import './assets/fontawesome-free-5.13.0-web/css/all.min.css'
 
 if (!process.env.IS_WEB) Vue.use(require('vue-electron'))
 Vue.config.productionTip = false
